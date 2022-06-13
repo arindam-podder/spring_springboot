@@ -1,0 +1,3 @@
+DLBF = DefaultListableBeanFactory
+
+XML BDR = xml bean definition reader
