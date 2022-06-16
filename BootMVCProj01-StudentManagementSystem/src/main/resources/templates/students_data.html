@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Management System</title>
+</head>
+<body>
+	
+	<!-- <a href="add">Add Student </a> -->
+	<a th:href = "@{/add}">Add Student </a>
+	<table border="1">
+		<tr>
+			<th>Student First Name</th>
+			<th>Student Last Name</th>
+			<th>Student Email</th>
+			<th>Actions</th>			
+		</tr>
+		
+		<tr th:each = "std : ${students}">
+			<td th:text = "${std.firstName}"></td>
+			<td th:text = "${std.lastName}"></td>
+			<td th:text = "${std.email}"></td>
+			<td>
+			<a th:href="@{ /update/{id}(id=${std.id}) }">Update</a> &nbsp;
+			<a th:href="@{ /delete/{id}(id=${std.id}) }">Delete</a>
+			</td>
+		</tr>
+		
+	</table>
+	
+
+</body>
+</html>

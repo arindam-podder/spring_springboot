@@ -1,0 +1,8 @@
+ nataraj sir note = 152
+ 
+ 
+ here for soft deletion , we no need to add extra field in the model/entity 
+ in db we will add extra field as status , default value active , 
+ if record want to delete then we will amke it as inactive, not deleting physically.
+ 
+ to perform above action JPA provided @SQLXxx qnnotation.....refer nataraj sir note.  

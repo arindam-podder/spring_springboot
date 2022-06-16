@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+   
+   edit student.
+   
+   <form action="/update" method="post" th:object = "${std}">
+	
+		<table border="1">
+			<tr>
+				<td>Student Id : </td>
+				<td> <input type="text" name=id th:field="*{id}" readonly="true"> </td>
+			</tr>
+			<tr>
+				<td>Student First Name : </td>
+				<td> <input type="text" name=firstName th:field="*{firstName}" > </td>
+			</tr>
+			<tr>
+				<td>Student Last Name : </td>
+				<td> <input type="text" name=lastName th:field="*{lastName}"> </td>
+			</tr>
+			<tr>
+				<td>Student Email : </td>
+				<td> <input type="email" name=email th:field="*{email}"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input type="submit" value="Update"> </td>
+			</tr>
+		</table>
+	
+	</form> 
+   
+</body>
+</html>

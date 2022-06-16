@@ -1,0 +1,16 @@
+ nataraj sir note = 154, 155
+ 
+ here , using @ModelAttribute we pass countriesList to the form.we have added one modelattribute annotated method in controller.check plz.
+ 
+ 
+ and , based on the country selected , the state list will come. technique, javascript help, declared each country states ... 
+ see nataraj sir note.
+ 
+ 
+ 
+ 
+ 
+ United\u0020States(used in application.properties as a key) : 
+ 			"\u0020" unicode char for space 
+ 
+  
