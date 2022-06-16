@@ -1,0 +1,17 @@
+2022-05-17 14:01:25.709  INFO 3980 --- [main] rocessingProj01PoCapplicationApplication : Starting BootBatchProcessingProj01PoCapplicationApplication using Java 16.0.1 on DESKTOP-1SQNGD0 with PID 3980 (D:\Spring stack by nataraj\BootProgram\BootBatchProcessingProj02-POCapplication-modifiedBatchConfig\target\classes started by hp in D:\Spring stack by nataraj\BootProgram\BootBatchProcessingProj02-POCapplication-modifiedBatchConfig)
+2022-05-17 14:01:25.717  INFO 3980 --- [main] rocessingProj01PoCapplicationApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-17 14:01:28.626  INFO 3980 --- [main] com.nt.listener.JobMonitoringListener    : JobMonitoringListener constructor executed.
+2022-05-17 14:01:28.638  INFO 3980 --- [main] com.nt.reader.PersonNameReader           : PersonNameReader constructor executed.
+2022-05-17 14:01:28.643  INFO 3980 --- [main] com.nt.processor.PersonNameProcessor     : PersonNameProcessor constructor executed.
+2022-05-17 14:01:28.645  INFO 3980 --- [main] com.nt.writer.PersonNameWriter           : PersonNameWriter is executed.
+2022-05-17 14:01:28.740  INFO 3980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-17 14:01:29.119  INFO 3980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-17 14:01:29.480  INFO 3980 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2022-05-17 14:01:29.813  INFO 3980 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-17 14:01:29.968  INFO 3980 --- [main] rocessingProj01PoCapplicationApplication : Started BootBatchProcessingProj01PoCapplicationApplication in 5.991 seconds (JVM running for 7.295)
+2022-05-17 14:01:30.070  INFO 3980 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=job1]] launched with the following parameters: [{time=1652776289972}]
+2022-05-17 14:01:30.145  INFO 3980 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [step1]
+2022-05-17 14:01:30.197  INFO 3980 --- [main] o.s.batch.core.step.AbstractStep         : Step: [step1] executed in 51ms
+2022-05-17 14:01:30.213  INFO 3980 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=job1]] completed with the following parameters: [{time=1652776289972}] and the following status: [COMPLETED] in 92ms
+2022-05-17 14:01:30.261  INFO 3980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-17 14:01:30.265  INFO 3980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,17 @@
+2022-05-21 17:23:14.013  INFO 16444 --- [main] rocessingProj01PoCapplicationApplication : Starting BootBatchProcessingProj01PoCapplicationApplication using Java 16.0.1 on DESKTOP-1SQNGD0 with PID 16444 (D:\Spring stack by nataraj\BootProgram\BootBatchProcessingProj01-POCapplication\target\classes started by hp in D:\Spring stack by nataraj\BootProgram\BootBatchProcessingProj01-POCapplication)
+2022-05-21 17:23:14.017  INFO 16444 --- [main] rocessingProj01PoCapplicationApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-21 17:23:15.013  INFO 16444 --- [main] com.nt.listener.JobMonitoringListener    : JobMonitoringListener constructor executed.
+2022-05-21 17:23:15.017  INFO 16444 --- [main] com.nt.reader.PersonNameReader           : PersonNameReader constructor executed.
+2022-05-21 17:23:15.019  INFO 16444 --- [main] com.nt.processor.PersonNameProcessor     : PersonNameProcessor constructor executed.
+2022-05-21 17:23:15.021  INFO 16444 --- [main] com.nt.writer.PersonNameWriter           : PersonNameWriter is executed.
+2022-05-21 17:23:15.121  INFO 16444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-21 17:23:15.406  INFO 16444 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-21 17:23:15.604  INFO 16444 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2022-05-21 17:23:15.827  INFO 16444 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2022-05-21 17:23:15.948  INFO 16444 --- [main] rocessingProj01PoCapplicationApplication : Started BootBatchProcessingProj01PoCapplicationApplication in 2.456 seconds (JVM running for 3.457)
+2022-05-21 17:23:16.033  INFO 16444 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=job1]] launched with the following parameters: [{time=1653133995953}]
+2022-05-21 17:23:16.084  INFO 16444 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [step1]
+2022-05-21 17:23:16.113  INFO 16444 --- [main] o.s.batch.core.step.AbstractStep         : Step: [step1] executed in 29ms
+2022-05-21 17:23:16.119  INFO 16444 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=job1]] completed with the following parameters: [{time=1653133995953}] and the following status: [COMPLETED] in 53ms
+2022-05-21 17:23:16.126  INFO 16444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-21 17:23:16.130  INFO 16444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
