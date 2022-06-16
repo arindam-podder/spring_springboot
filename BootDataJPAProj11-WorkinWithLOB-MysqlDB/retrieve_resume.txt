@@ -1,0 +1,32 @@
+						RESUME
+					-----------------------------------
+
+	profile :
+	----------
+	my name is arindam podder.from raiganj,WB.
+
+	academics :
+	----------------
+	completed b.tech in information technology from siliguri institute of technology,West Bengal.
+
+
+	technical skills:
+	--------------------
+	programing laguage :- java, python
+	ui laguage :- html , css ,java script
+	database :- oracle , mysql
+	framework :- hibernatye, spring , spring boot , django
+	tools :- maven , eclips,github   
+
+
+	project :
+ 	-----------
+	student management system using sprinboot and mvc pattern.
+	technology and tools used :- java 11 , springboot with data jpa , spring MVC ,thymlef , html, css, bootstrap, mysql , eclips, maven
+
+
+	contact details :
+	---------------------
+	phn no :- 8016977044
+	email id :- iampodder@gmail.com
+	
