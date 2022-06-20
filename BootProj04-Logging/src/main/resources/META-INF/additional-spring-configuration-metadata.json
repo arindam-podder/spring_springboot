@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "log4j.rootLogger",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.rootLogger'"
+  },
+  {
+    "name": "log4j.appender..append",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender..append'"
+  },
+  {
+    "name": "log4j.appender.append",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.append'"
+  }
+]}
